@@ -1,0 +1,22 @@
+{
+  "name": "conmeet",
+  "version": "1.0.1",
+  "description": "Conmeet is a project for a fictional service to communicate with friends, family and others",
+  "main": "index.js",
+  "scripts": {
+    "watch:styles": "node-sass scss/main.scss styles/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nattek05/conmeet.git"
+  },
+  "author": "Nattek05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nattek05/conmeet/issues"
+  },
+  "homepage": "https://github.com/Nattek05/conmeet#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
