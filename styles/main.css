@@ -10,4 +10,59 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
   min-height: 100vh; }
+
+.nav {
+  padding: 0 10rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; }
+  .nav__logo {
+    width: 12rem;
+    height: 8rem; }
+  .nav__controls {
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
+    .nav__controls--btn:visited, .nav__controls--btn:link {
+      text-decoration: none;
+      color: #777;
+      font-size: 1.7rem;
+      font-family: "Kanit", sans-serif;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: .5rem 1rem; }
+      .nav__controls--btn:visited:hover, .nav__controls--btn:link:hover {
+        background-color: #2563eb;
+        border-radius: 1rem;
+        color: #ffffff; }
+        .nav__controls--btn:visited:hover > svg, .nav__controls--btn:link:hover > svg {
+          fill: #ffffff; }
+  .nav__btn-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    height: 100%; }
+    .nav__btn-box--svg {
+      width: 2rem;
+      height: 2rem;
+      fill: #2563eb; }
+  .nav__user {
+    display: flex; }
+    .nav__user--join {
+      color: #ffffff;
+      text-decoration: none;
+      background-image: linear-gradient(to bottom right, #1e40af, #60a5fa);
+      background-size: 200%;
+      font-size: 2rem;
+      font-family: "Kanit", sans-serif;
+      font-weight: 200;
+      padding: .5rem 1rem;
+      border-radius: 1rem; }

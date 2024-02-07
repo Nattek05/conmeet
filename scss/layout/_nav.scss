@@ -1,0 +1,71 @@
+.nav{
+    padding: 0 10rem;
+    background-color: $col-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &__logo{
+        width: 12rem;
+        height: 8rem;
+    }
+    &__controls{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+        &--btn:visited,
+        &--btn:link{
+            text-decoration: none;
+            color: #777;
+            font-size: 1.7rem;
+            font-family: $main-font;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: .5rem 1rem;
+
+            &:hover{
+                background-color: $col-main;
+                border-radius: 1rem;
+                color: $col-white;
+                
+
+                & > svg{
+                    fill: $col-white;
+                }
+            }
+
+        }
+    }
+        &__btn-box{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+            height: 100%;
+
+
+            &--svg{
+                width: 2rem;
+                height: 2rem;
+                fill: $col-main
+            }
+        }
+        &__user{    
+            display: flex;
+            &--join{
+                color: $col-white;
+                text-decoration: none;
+                background-image: linear-gradient(to bottom right, $col-main-dark,$col-main-light);
+                background-size: 200%;
+                font-size: 2rem;
+                font-family: $main-font;
+                font-weight: 200;
+                padding: .5rem 1rem;
+                border-radius: 1rem;
+
+            }
+        }
+}

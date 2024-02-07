@@ -1,3 +1,12 @@
 @import "basics/varables";
+@import "basics/site";
+
+@import "utility/animations";
+@import "utility/mixins";
+
+@import "components/text";
+
+@import "layout/nav";
+@import "layout/header";
 
 @import "pages/home";
