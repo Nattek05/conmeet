@@ -1,0 +1,22 @@
+.heading__txt{
+    font-weight: 400;
+    color: $col-slate-normal;
+    font-size: 6.6rem;
+    line-height: 8rem;
+
+
+    & > b{
+        color: $col-main;
+        font-weight: 400;
+    }
+}
+
+.heading{
+    &__desc{
+        padding: 4rem 0;
+        font-weight: 300;
+        color: $col-slate-normal;
+        font-size: 1.6rem;
+
+    }
+}
