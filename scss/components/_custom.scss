@@ -18,13 +18,23 @@
         width: 70%;
         font-size: 1.6rem;
         color: $col-slate-normal;
+        &--white{
+            color: $col-white;
+        }
+
     }
     &__small{
         font-size: 3rem;
         
-        & > b{
-            color: $col-main;
+    
+    }
+    &__white{
+        color: $col-white;
+
+          & > b{
+            color: $col-slate-normal;
             font-weight: 400;
         }
+
     }
 }
