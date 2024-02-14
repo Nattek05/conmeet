@@ -6,7 +6,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   font-family: "Kanit", sans-serif;
@@ -41,7 +42,8 @@ body {
 
 .btn {
   text-decoration: none;
-  border: none; }
+  border: none;
+  color: inherit; }
   .btn__header-btn {
     font-family: "Kanit", sans-serif;
     color: #ffffff;
@@ -306,8 +308,18 @@ body {
       color: #888;
       width: 50%;
       margin-bottom: 1rem; }
+      .offer__list--item__button {
+        margin-top: 1rem;
+        background-color: #2563eb;
+        color: #e2e8f0;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0px 2px 10px rgba(15, 23, 42, 0.2); }
   .offer__svg {
-    fill: #2563eb;
+    fill: #e2e8f0;
     width: 2rem;
     height: 2rem; }
 
