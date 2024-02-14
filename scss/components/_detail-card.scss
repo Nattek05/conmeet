@@ -1,0 +1,69 @@
+.details{
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    max-width: 60vw;
+
+    &__card{
+        width: clamp(50%,50vw,90vw);
+        padding: 2rem 2rem 4rem;
+        box-sizing: content-box;
+        box-shadow: 0px 3px 15px rgba($col-slate-mid,.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        &--icon{
+            flex: 0 0 15%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+        }
+        &--desc{
+            flex: 1;
+        }
+        &--heading{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+          
+        }
+            &--small-svg{
+                width: 2rem;
+                height: 2rem;
+                fill: $col-main-light;
+            }
+
+        &--paragraph{
+            color: $col-slate-mid;
+            font-family: inherit;
+            font-size: $def-font-size;
+            font-weight: 300;
+
+            & > b{
+                font-weight: 400;
+                color: $col-main;
+            }
+           
+        }
+        
+        &--svg{
+            box-sizing: content-box;
+            width: 5rem;
+            height: 5rem;
+            fill: $col-main;
+            padding: 1rem;
+        }
+    }
+
+}

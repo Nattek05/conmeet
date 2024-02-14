@@ -13,10 +13,18 @@
         color: $col-main;
         font-weight: 400;
     }
-
+    
     &__description{
         width: 70%;
         font-size: 1.6rem;
         color: $col-slate-normal;
+    }
+    &__small{
+        font-size: 3rem;
+        
+        & > b{
+            color: $col-main;
+            font-weight: 400;
+        }
     }
 }
